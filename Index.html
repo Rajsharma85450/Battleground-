@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battleground Game</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0f172a; /* Dark blue background */
+      color: #ffffff;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ff5722; /* Orange accent */
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .game-info {
+      margin: 20px auto;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+
+    .game-info p {
+      font-size: 18px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff5722;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #e64a19; /* Darker orange on hover */
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background-color: #1e293b; /* Dark gray */
+      color: #ffffff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Battleground Game</h1>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="game-info">
+      <h2>Welcome to the Ultimate Battle Royale Experience!</h2>
+      <p>Join millions of players worldwide in this fast-paced, action-packed battleground game. Drop into the battlefield, gather weapons, and fight to be the last one standing.</p>
+      <p>Features:</p>
+      <ul style="text-align: left; display: inline-block;">
+        <li>Realistic graphics and immersive gameplay</li>
+        <li>Multiplayer mode with friends</li>
+        <li>Customizable characters and weapons</li>
+        <li>Daily challenges and rewards</li>
+      </ul>
+      <a href="#" class="cta-button">Download Now</a>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    &copy; 2023 Battleground Game. All rights reserved.
+  </footer>
+
+  <!-- Optional JavaScript for Interactivity -->
+  <script>
+    // Example: Alert when the button is clicked
+    const button = document.querySelector('.cta-button');
+    button.addEventListener('click', () => {
+      alert('Thank you for downloading! Enjoy the game.');
+    });
+  </script>
+</body>
+</html>
